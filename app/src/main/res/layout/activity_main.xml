@@ -76,14 +76,13 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/CameraBtn"
-        android:src="@drawable/baseline_add_24"
+        android:id="@+id/add_tree_button"
+        android:src="@drawable/plaintreeicon"
         android:tint="@color/white"
         android:visibility="visible"
         app:elevation="2dp"
         android:layout_gravity="bottom|center"
         android:backgroundTint="@color/iconColor"
-        android:theme="@style/Theme.AppCompat"
         app:layout_anchor="@id/bottomAppBar"
         app:layout_anchorGravity="center"
         />
