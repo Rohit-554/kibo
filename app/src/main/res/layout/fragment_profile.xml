@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.features.profile.viewModel.scree.profileFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:src="@drawable/profile_top" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="125dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center|right|left|fill_vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="80dp"
+        android:src="@drawable/profilephoto" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="358dp"
+        android:layout_height="185dp"
+        android:paddingLeft="160dp"
+        android:paddingTop="90dp"
+        android:src="@drawable/profilename" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</FrameLayout>
