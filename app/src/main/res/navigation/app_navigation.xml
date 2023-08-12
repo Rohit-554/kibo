@@ -8,6 +8,11 @@
     <fragment
         android:id="@+id/homeNewsFragment"
         android:name="io.jadu.kibo.ui.features.news.screens.HomeNewsFragment"
-        android:label="fragment_home_news"
+        android:label="News"
         tools:layout="@layout/fragment_home_news" />
+    <fragment
+        android:id="@+id/plantInfoFragment"
+        android:name="io.jadu.kibo.ui.features.plant.screens.PlantInfoFragment"
+        android:label="Plant Info"
+        tools:layout="@layout/fragment_plant_info" />
 </navigation>

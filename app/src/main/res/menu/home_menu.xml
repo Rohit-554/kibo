@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeNewsFragment"
         android:icon="@drawable/home_selector"
         android:title="@string/home"
         />
 
     <item
-        android:id="@+id/treeTypes"
+        android:id="@+id/plantInfoFragment"
         android:icon="@drawable/tree_type_selector"
         android:title="@string/tree_types" />
 

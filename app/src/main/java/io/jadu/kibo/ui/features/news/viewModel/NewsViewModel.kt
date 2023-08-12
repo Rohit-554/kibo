@@ -1,5 +1,6 @@
 package io.jadu.kibo.ui.features.news.viewModel
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,7 +15,7 @@ import javax.inject.Inject
 class NewsViewModel @Inject constructor(private val newsRepository: NewsRepository):ViewModel() {
 
     private val _newsLiveData = MutableLiveData<NewsDto?>()
-    val newsLiveData: MutableLiveData<NewsDto?>
+    val newsLiveData: LiveData<NewsDto?>
         get() = _newsLiveData
 
     init {

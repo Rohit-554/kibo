@@ -6,5 +6,7 @@ object Constants {
     const val AUTH0_CLIENT_ID = "30a6gfn5gcrwKyv6NquewxOPoD7Hs7zG"
     const val AUTH0_DOMAIN = "dev-7ebr8ubi3skng2ov.us.auth0.com"
 
+    const val PLANT_BASE_URL = "https://perenual.com/api/"
+    const val PLANT_API_KEY = "sk-Fw8c64d7bcf9f06031857"
 
 }

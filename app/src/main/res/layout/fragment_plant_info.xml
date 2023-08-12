@@ -2,20 +2,15 @@
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.features.news.screens.HomeNewsFragment">
+    tools:context=".ui.features.plant.screens.PlantInfoFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/news_recycler_view"
+        android:id="@+id/plantInfoRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item_news_layout"
+        tools:listitem="@layout/item_plant_layout"
         />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

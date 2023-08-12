@@ -22,7 +22,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/newsImage"
+                android:id="@+id/plantImage"
                 android:layout_width="match_parent"
                 android:layout_height="196dp"
                 android:scaleType="centerCrop"
@@ -32,10 +32,10 @@
                 android:src="@drawable/sampleimg" />
 
             <TextView
-                android:id="@+id/heading"
+                android:id="@+id/plantName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/newsImage"
+                android:layout_below="@id/plantImage"
                 android:layout_gravity="start"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="20dp"
@@ -50,10 +50,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/newsDescription"
+                android:id="@+id/plantDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/heading"
+                android:layout_below="@id/plantName"
                 android:layout_centerHorizontal="true"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="4dp"
