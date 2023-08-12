@@ -64,4 +64,11 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item> <!-- Adjust the corner radius as needed -->
     </style>
+
+    <style name="EditTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/primary_text_color</item>
+        <item name="android:textColorHint">@color/hint_text_color_dark_ui</item>
+        <item name="endIconTint">@color/hint_text_color_dark_ui</item>
+    </style>
 </resources>

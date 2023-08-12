@@ -15,4 +15,9 @@
         android:name="io.jadu.kibo.ui.features.plant.screens.PlantInfoFragment"
         android:label="Plant Info"
         tools:layout="@layout/fragment_plant_info" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="io.jadu.kibo.ui.features.addTree.screen.cameraFragment"
+        android:label="Add Tree"
+        tools:layout="@layout/fragment_camera" />
 </navigation>

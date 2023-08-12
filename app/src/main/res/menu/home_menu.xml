@@ -12,8 +12,10 @@
         android:title="@string/tree_types" />
 
     <item
-        android:id="@+id/add_new_tree"
-        android:title="" />
+        android:id="@+id/cameraFragment"
+        android:title="@string/add_tree"
+        android:icon="@drawable/camera_selector"
+        />
 
 
     <item

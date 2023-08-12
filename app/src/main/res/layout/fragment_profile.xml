@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.features.profile.viewModel.scree.profileFragment">
+    tools:context=".ui.features.profile.screen.profileFragment">
 
     <ImageView
         android:id="@+id/imageView4"
