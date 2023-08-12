@@ -3,6 +3,6 @@
 
     <!-- <item android:drawable="@drawable/outline_people_24" android:state_checked="false"/> -->
     <!-- <item android:drawable="@drawable/baseline_people_24" android:state_checked="true"/> -->
-    <item android:drawable="@drawable/outline_person_4_24" android:state_checked="false"/>
-    <item android:drawable="@drawable/baseline_person_4_24" android:state_checked="true"/>
+    <item android:drawable="@drawable/userji" android:state_checked="false"/>
+    <item android:drawable="@drawable/usergreen" android:state_checked="true"/>
 </selector>
