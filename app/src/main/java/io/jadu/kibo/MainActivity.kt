@@ -3,8 +3,10 @@ package io.jadu.kibo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.findNavController
 import com.auth0.android.Auth0
 import com.auth0.android.authentication.AuthenticationAPIClient
 import com.auth0.android.authentication.AuthenticationException
@@ -45,9 +47,11 @@ class MainActivity : AppCompatActivity() {
 //                val credentials = WebAuthProvider.login(Auth0Account)
 //                    .withTrustedWebActivity()
 //                    .await(this@MainActivity)
+//                findNavController(R.id.fragmentContainerView).navigate(R.id.homeNewsFragment)
+//
 //                println(credentials)
 //            } catch(e: AuthenticationException) {
-//                // show error message
+//                finish()
 //            }
 //        }
 
