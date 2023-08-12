@@ -2,6 +2,6 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/outline_people_24" android:state_checked="false"/>
-    <item android:drawable="@drawable/baseline_people_24" android:state_checked="true"/>
+    <item android:drawable="@drawable/baseline_people_24_green" android:state_checked="true"/>
 
 </selector>
