@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_selector"
+        android:title="@string/home"
+        />
+
+    <item
+        android:id="@+id/treeTypes"
+        android:icon="@drawable/tree_type_selector"
+        android:title="@string/tree_types" />
+
+    <item
+        android:id="@+id/add_new_tree"
+        android:title="" />
+
+
+    <item
+        android:id="@+id/community"
+        android:icon="@drawable/community_selector"
+        android:title="@string/community" />
+
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_selector"
+        android:title="@string/profile" />
+
+
+</menu>

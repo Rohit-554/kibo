@@ -6,4 +6,56 @@
     </style>
 
     <style name="Theme.Kibo" parent="Base.Theme.Kibo" />
+
+    <style name="TextViewFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextInputTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/primary_text_color</item>
+        <item name="android:textColorHint">@color/hint_text_color_dark_ui</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="TextInputEditTextTheme" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="SnackbarText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="PrefixTextStyle" parent="Theme.Kibo">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="customRoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+
+    </style>
+    <style name="customRounded4Corner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <style name="MyExpandedTitle" parent="@style/TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="MyCollapsedTitle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="toolbarTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@color/iconColor</item>
+    </style>
+    <style name="Style_TextView">
+        <item name="fontFamily">@font/poppins</item>
+    </style>
 </resources>

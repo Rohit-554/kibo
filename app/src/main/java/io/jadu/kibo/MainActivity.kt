@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         Auth0Account = Auth0(Constants.AUTH0_CLIENT_ID, Constants.AUTH0_DOMAIN)
         newsViewModel.newsLiveData.observe(this){
             Log.d("MainActivity", "onCreate: $it")
@@ -41,16 +40,16 @@ class MainActivity : AppCompatActivity() {
         }
 //        WebAuthProvider.login(Auth0Account)
 //            .start(this, callback)
-        lifecycleScope.launch {
-            try {
-                val credentials = WebAuthProvider.login(Auth0Account)
-                    .withTrustedWebActivity()
-                    .await(this@MainActivity)
-                println(credentials)
-            } catch(e: AuthenticationException) {
-                // show error message
-            }
-        }
+//        lifecycleScope.launch {
+//            try {
+//                val credentials = WebAuthProvider.login(Auth0Account)
+//                    .withTrustedWebActivity()
+//                    .await(this@MainActivity)
+//                println(credentials)
+//            } catch(e: AuthenticationException) {
+//                // show error message
+//            }
+//        }
 
 //        lifecycleScope.launch {
 //            try {

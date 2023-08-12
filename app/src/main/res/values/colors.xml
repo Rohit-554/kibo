@@ -3,4 +3,24 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="toolbar">#D4E2D4</color>
+
+    <color name="primary_text_color">#000000</color>
+    <color name="inverse_icon_color">#FFFFFF</color>
+    <color name="btn_color">#5C94E2</color>
+    <color name="hint_text_color_dark_ui">#808080</color>
+    <color name="light_black">#e8e8e8</color>
+    <color name="lightGreyish">#D8D3CD</color>
+
+    <color name="ErrorColor">#B3261E</color>
+    <color name="ErrorColorSecondary">#F16767</color>
+
+    <color name="blueColor">#59A5D8</color>
+    <color name="whitedull">#F8F8F8</color>
+    <color name="lightBlue">#2859A5D8</color>
+    <color name="link_color">#0044CC</color>
+    <color name="defaultDark">#FFFFFF</color>
+    <color name="gradient">#59A5D8</color>
+    <color name="TextCopyBackground">#23CE6B</color>
+    <color name="iconColor">#7ac38f</color>
+    <color name="iconColorSecondary">#9ae17b</color>
 </resources>

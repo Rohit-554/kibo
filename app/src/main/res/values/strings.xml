@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Kibo</string>
-    <string name = "auth0domain">dev-7ebr8ubi3skng2ov.us.auth0.com</string>
+    <string name="auth0domain">dev-7ebr8ubi3skng2ov.us.auth0.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="tree_types">Types</string>
+    <string name="profile">Profile</string>
 </resources>
