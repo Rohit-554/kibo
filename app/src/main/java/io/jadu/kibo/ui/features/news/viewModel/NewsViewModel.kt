@@ -18,7 +18,7 @@ class NewsViewModel @Inject constructor(private val newsRepository: NewsReposito
         get() = _newsLiveData
 
     init {
-        getNews("environment", Constants.API_KEY)
+        getNews("environment", Constants.NEWS_API_KEY)
     }
 
     private fun getNews(query: String, apiKey: String) = viewModelScope.launch {
@@ -28,7 +28,6 @@ class NewsViewModel @Inject constructor(private val newsRepository: NewsReposito
         }else{
             _newsLiveData.postValue(null)
         }
-
     }
 
 }
