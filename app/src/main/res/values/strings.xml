@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kibo</string>
+    <string name = "auth0domain">dev-7ebr8ubi3skng2ov.us.auth0.com</string>
 </resources>

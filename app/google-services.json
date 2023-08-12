@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325619579298",
+    "project_id": "kibo-6fe0e",
+    "storage_bucket": "kibo-6fe0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325619579298:android:12249edf9d05ae7a10dafb",
+        "android_client_info": {
+          "package_name": "io.jadu.kibo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325619579298-tc3ji7aqqng6ghop5u1v167rl7066nka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUSmuHERpHpZucVNzgirJ_yWWmxYpHvNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325619579298-tc3ji7aqqng6ghop5u1v167rl7066nka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

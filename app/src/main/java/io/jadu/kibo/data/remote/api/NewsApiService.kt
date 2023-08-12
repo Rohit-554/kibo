@@ -10,6 +10,6 @@ interface NewsApiService {
     @GET("everything")
     suspend fun getNews(
         @Query("q") query: String = "environment",
-        @Query("apiKey") apiKey: String = Constants.API_KEY
+        @Query("apiKey") apiKey: String = Constants.NEWS_API_KEY
     ) : Response<NewsDto>
 }
