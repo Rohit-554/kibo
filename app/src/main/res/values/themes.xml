@@ -58,4 +58,9 @@
     <style name="Style_TextView">
         <item name="fontFamily">@font/poppins</item>
     </style>
+
+    <style name="RoundedFAB" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Adjust the corner radius as needed -->
+    </style>
 </resources>

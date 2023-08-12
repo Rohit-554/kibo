@@ -22,5 +22,6 @@
     <color name="gradient">#59A5D8</color>
     <color name="TextCopyBackground">#23CE6B</color>
     <color name="iconColor">#7ac38f</color>
+    <color name="fab_color">#056d34</color>
     <color name="iconColorSecondary">#9ae17b</color>
 </resources>
