@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/round_add_chart_24"
+            android:elevation="10dp"
+            android:layout_alignParentEnd="true"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/kiboCommunityCard"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_margin="16dp"
+                app:cardElevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/topKibosuserLayout"
+                        android:layout_width="wrap_content"
+                        android:elevation="10dp"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@drawable/baseline_person_24"
+                            android:background="@drawable/roundedbutton"
+                            android:layout_margin="16dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/topKibosuserName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Vishal Yadav"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/kiboCommunitypersonImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/c3"
+                        android:scaleType="fitXY"
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/baseline_thumb_up_24"
+                        app:tint="@color/blueColor" />
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/kiboCommunityCard_"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_margin="16dp"
+                app:cardElevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/topKibosuserLayout_"
+                        android:layout_width="wrap_content"
+                        android:elevation="10dp"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@drawable/baseline_person_24"
+                            android:background="@drawable/roundedbutton"
+                            android:layout_margin="16dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/topKibosuserName_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Harsh Shukla"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/kiboCommunitypersonImage_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/c3"
+                        android:scaleType="fitXY"
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/baseline_thumb_up_24"
+                        app:tint="@color/blueColor" />
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/kiboCommunityCard__"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_margin="16dp"
+                app:cardElevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/topKibosuserLayout__"
+                        android:layout_width="wrap_content"
+                        android:elevation="10dp"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@drawable/baseline_person_24"
+                            android:background="@drawable/roundedbutton"
+                            android:layout_margin="16dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/topKibosuserName__"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Himanshu Singh"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/kiboCommunitypersonImage__"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/c3"
+                        android:scaleType="fitXY"
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/baseline_thumb_up_24"
+                        app:tint="@color/blueColor" />
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/kiboCommunityCard___"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_margin="16dp"
+                app:cardElevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/topKibosuserLayout___"
+                        android:layout_width="wrap_content"
+                        android:elevation="10dp"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@drawable/baseline_person_24"
+                            android:background="@drawable/roundedbutton"
+                            android:layout_margin="16dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/topKibosuserName___"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Pradeep Singh"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/kiboCommunitypersonImage___"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/c3"
+                        android:scaleType="fitXY"
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/baseline_thumb_up_24"
+                        app:tint="@color/blueColor" />
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

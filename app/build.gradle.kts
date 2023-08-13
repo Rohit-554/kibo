@@ -94,6 +94,12 @@ dependencies {
     //location
     //
     implementation ("com.google.android.gms:play-services-location:21.0.1")
+
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.25")
+
+    implementation ("com.airbnb.android:lottie:6.1.0")
 }
 kapt {
     correctErrorTypes = true

@@ -18,7 +18,7 @@
 
 
     <item
-        android:id="@+id/community"
+        android:id="@+id/kiboCommunity"
         android:icon="@drawable/community_selector"
         android:title="@string/community" />
 

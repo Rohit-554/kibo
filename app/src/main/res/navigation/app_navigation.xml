@@ -9,20 +9,57 @@
         android:id="@+id/homeNewsFragment"
         android:name="io.jadu.kibo.ui.features.news.screens.HomeNewsFragment"
         android:label="News"
-        tools:layout="@layout/fragment_home_news" />
+        tools:layout="@layout/fragment_home_news" >
+        <action
+            android:id="@+id/action_homeNewsFragment_to_plantInfoFragment"
+            app:destination="@id/plantInfoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/plantInfoFragment"
         android:name="io.jadu.kibo.ui.features.plant.screens.PlantInfoFragment"
         android:label="Plant Info"
-        tools:layout="@layout/fragment_plant_info" />
+        tools:layout="@layout/fragment_plant_info" >
+        <action
+            android:id="@+id/action_plantInfoFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cameraFragment"
         android:name="io.jadu.kibo.ui.features.addTree.screen.cameraFragment"
         android:label="Add Tree"
-        tools:layout="@layout/fragment_camera" />
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_cameraFragment_to_kiboCommunity"
+            app:destination="@id/kiboCommunity" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="io.jadu.kibo.ui.features.profile.screen.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/kiboCommunity"
+        android:name="io.jadu.kibo.ui.features.community.screens.KiboCommunity"
+        android:label="fragment_kibo_community"
+        tools:layout="@layout/fragment_kibo_community" >
+        <action
+            android:id="@+id/action_kiboCommunity_to_topKibosCommunity"
+            app:destination="@id/topKibosCommunity" />
+        <action
+            android:id="@+id/action_kiboCommunity_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_kiboCommunity_to_kibosCloseBy"
+            app:destination="@id/kibosCloseBy" />
+    </fragment>
+    <fragment
+        android:id="@+id/topKibosCommunity"
+        android:name="io.jadu.kibo.ui.features.community.screens.TopKibosCommunity"
+        android:label="fragment_top_kibos_community"
+        tools:layout="@layout/fragment_top_kibos_community" />
+    <fragment
+        android:id="@+id/kibosCloseBy"
+        android:name="io.jadu.kibo.ui.features.community.screens.KibosCloseBy"
+        android:label="fragment_kibos_close_by"
+        tools:layout="@layout/fragment_kibos_close_by" />
 </navigation>

@@ -9,4 +9,22 @@
     <string name="select_tree_type">Select Tree Type</string>
     <string name="add_tree">Add Tree</string>
     <string name="deny_perm_text">Permission Denied\n</string>
+    <string name="p1">I plant trees with a heart full of happiness. Each tree I nurture is a little piece of joy. The earth\'s embrace fuels my contentment.</string>
+    <string name="abundant_green_feeling">
+    Amidst nature\'s canvas, I sow the seeds of life. A flourishing forest, a testament to my happiness. The earth\'s transformation ignites my soul with boundless joy.
+    </string>
+    <string name="seeds_of_smiles">
+    Planting trees is my canvas of happiness. Every seed in the ground sprouts a smile in my heart. Nurturing nature brings endless joy.
+    </string>
+
+    <string name="green_reverie">
+    As I plant trees, I weave dreams in the soil. Each sapling is a promise of a greener future. Joy unfurls with every leaf.
+    </string>
+
+    <string name="earthly_delight">
+    In the act of planting, I find my heart\'s delight. The earth\'s embrace is a source of boundless happiness. A forest of dreams takes root within me.
+</string>
+    Feel free to use these resource IDs to reference the strings in your app as needed.
+
+
 </resources>
