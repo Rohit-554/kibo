@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.features.addTree.screen.AddTreeActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp"
+        >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_tree_type"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/primary_text_color"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:boxStrokeWidth="2dp"
+        android:layout_marginTop="4dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        style="@style/EditTextInputLayout"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/availability_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:padding="10dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/treeDetailsLayout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/treeImage"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/treeiconn"
+                />
+
+            <TextView
+                android:id="@+id/treeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="20sp"
+                android:text="adfadf"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/treeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="this is"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight=".9"
+                    android:layout_height="wrap_content"
+                    app:startIconDrawable="@drawable/baseline_location_on_24"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Choose your location"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/myLocation"
+                    android:layout_width="0dp"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_my_location_24"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="4dp"
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_marginTop="24dp"
+                android:elevation="8dp"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/preview_tree_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <RelativeLayout
+                    android:id="@+id/previewLayout"
+                    android:paddingBottom="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/cameraIcon"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/baseline_camera_alt_24" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/uploadImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/cameraIcon"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/roundedbutton"
+                        android:layout_marginStart="48dp"
+                        android:text="Upload"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white"
+                        android:layout_marginEnd="48dp" />
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/addTreeButton"
+                    android:layout_alignEnd="@id/addTreeButton"
+                    android:elevation="10dp"
+                    android:indeterminateTint="@color/white"
+                    android:layout_alignTop="@id/addTreeButton"
+                    android:layout_alignBottom="@id/addTreeButton"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/addTreeButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/roundedbutton2"
+
+                    android:text="Add Your Tree"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="24dp"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,5 +1,8 @@
 package io.jadu.kibo.modules
 
+import android.app.Application
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
@@ -31,5 +34,12 @@ object Modules {
                 .setLenient()
                 .create()))
             .build()
+    }
+
+    //define firestore
+    @Provides
+    @Singleton
+    fun provideFusedLocationProviderClient(app: Application): FusedLocationProviderClient {
+        return LocationServices.getFusedLocationProviderClient(app)
     }
 }

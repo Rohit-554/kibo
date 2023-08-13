@@ -32,6 +32,8 @@ class HomeNewsFragment : Fragment() {
         newsViewModel.newsLiveData.observe(viewLifecycleOwner){news->
             Log.d("newsc", "onCreateView: $news")
             val newsAdapter = NewsAdapter()
+            binding.progressBar.visibility = View.GONE
+            binding.newsRecyclerView.visibility = View.VISIBLE
             newsAdapter.newsList = news
             mRecyclerView.adapter = newsAdapter
             newsAdapter.notifyDataSetChanged()

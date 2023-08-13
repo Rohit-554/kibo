@@ -8,4 +8,5 @@
     <string name="profile">Profile</string>
     <string name="select_tree_type">Select Tree Type</string>
     <string name="add_tree">Add Tree</string>
+    <string name="deny_perm_text">Permission Denied\n</string>
 </resources>

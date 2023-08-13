@@ -13,8 +13,7 @@
 
     <item
         android:id="@+id/cameraFragment"
-        android:title="@string/add_tree"
-        android:icon="@drawable/camera_selector"
+        android:title=" "
         />
 
 
@@ -25,7 +24,7 @@
 
 
     <item
-        android:id="@+id/profile"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/profile_selector"
         android:title="@string/profile" />
 

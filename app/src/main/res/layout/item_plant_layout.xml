@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,9 +23,8 @@
             <ImageView
                 android:id="@+id/plantImage"
                 android:layout_width="match_parent"
-                android:layout_height="196dp"
+                android:layout_height="104dp"
                 android:scaleType="centerCrop"
-                android:layout_marginTop="8dp"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
                 android:src="@drawable/sampleimg" />
@@ -73,6 +71,3 @@
 
 
     </androidx.cardview.widget.CardView>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>

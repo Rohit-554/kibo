@@ -29,6 +29,8 @@ class PlantInfoFragment : Fragment() {
         mRecyclerView.layoutManager = GridLayoutManager(requireContext(),2)
         plantsInfoViewModel.plantsLiveData.observe(viewLifecycleOwner){plants->
             Log.d("plants", "onCreateView: $plants")
+            binding.progressBar.visibility = View.GONE
+            binding.plantInfoRecyclerView.visibility = View.VISIBLE
             val plantAdapter = PlantAdapter()
             plantAdapter.plantList = plants
             mRecyclerView.adapter = plantAdapter

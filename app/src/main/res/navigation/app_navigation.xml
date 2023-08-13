@@ -20,4 +20,9 @@
         android:name="io.jadu.kibo.ui.features.addTree.screen.cameraFragment"
         android:label="Add Tree"
         tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="io.jadu.kibo.ui.features.profile.screen.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

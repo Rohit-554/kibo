@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="4dp"
+        >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tree_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Tree Title"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_arrow_forward_24"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tree_title"
+            app:cardCornerRadius="14dp"
+            android:layout_margin="16dp"
+            >
+            <ImageView
+                android:id="@+id/profile_tree_image"
+                android:layout_width="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@id/tree_title"
+                android:layout_height="124dp"
+                android:src="@drawable/profile_top" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_below="@id/cardView"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lastUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Last Update" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lastUpdateDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lastUpdate"
+                    android:layout_centerHorizontal="true"
+                    android:text="5 days ago" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_centerHorizontal="true"
+                    android:text="Points" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/grow_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/points"
+                    android:layout_centerHorizontal="true"
+                    android:text="5 days ago" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/badges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_centerHorizontal="true"
+                    android:text="Badge" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/badges_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/badges"
+                    android:layout_centerHorizontal="true"
+                    android:text="2" />
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

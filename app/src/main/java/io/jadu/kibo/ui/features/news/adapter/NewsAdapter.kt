@@ -36,6 +36,9 @@ class NewsAdapter():RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
         Log.d("current", "onBindViewHolder: ${currentItem?.title}")
         holder.newsTitle.text = currentItem?.title
         holder.newsDescription.text = currentItem?.description
-        Glide.with(holder.itemView.context).load(currentItem?.urlToImage).into(holder.newsImage)
+        Glide.with(holder.itemView.context).load(currentItem?.urlToImage).
+        placeholder(R.drawable.treeiconn).
+        error(R.drawable.treeiconn).
+        into(holder.newsImage)
     }
 }

@@ -26,6 +26,7 @@ import com.auth0.android.result.Credentials
 import com.google.android.material.appbar.MaterialToolbar
 import dagger.hilt.android.AndroidEntryPoint
 import io.jadu.kibo.databinding.ActivityMainBinding
+import io.jadu.kibo.ui.features.addTree.screen.AddTreeActivity
 import io.jadu.kibo.ui.features.news.viewModel.NewsViewModel
 import io.jadu.kibo.uitlities.Constants
 import kotlinx.coroutines.launch
@@ -72,13 +73,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.floatingActionButton.setOnClickListener {
-            Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
-                takePictureIntent.resolveActivity(packageManager)?.also {
-                    startActivityForResult(takePictureIntent,
-                        REQUEST_IMAGE_CAPTURE
-                    )
-                }
-            }
+            startActivity(Intent(this, AddTreeActivity::class.java))
+//            Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
+//                takePictureIntent.resolveActivity(packageManager)?.also {
+//                    startActivityForResult(takePictureIntent,
+//                        REQUEST_IMAGE_CAPTURE
+//                    )
+//                }
+//            }
 //            findNavController(R.id.fragmentContainerView).navigate(R.id.cameraFragment)
         }
 
@@ -98,15 +100,15 @@ class MainActivity : AppCompatActivity() {
 //            }
 //        }
 
-//        lifecycleScope.launch {
-//            try {
-//                WebAuthProvider.logout(Auth0Account)
-//                    .await(this@MainActivity)
-//                println("Logged out")
-//            } catch(e: AuthenticationException) {
-//                // show error message
-//            }
-//        }
+        /*lifecycleScope.launch {
+            try {
+                WebAuthProvider.logout(Auth0Account)
+                    .await(this@MainActivity)
+                println("Logged out")
+            } catch(e: AuthenticationException) {
+                // show error message
+            }
+        }*/
 //
 //        val authentication = AuthenticationAPIClient(Auth0Account)
 //        val storage = SharedPreferencesStorage(this)
