@@ -19,9 +19,9 @@ Kibo utilizes the following technologies:
 - **Architecture:** MVVM Architecture
 - **Networking:** Retrofit
 - **Database:** Firestore
-- **Storage:** Cloud Storage
+- **Storage:** Cloud Storage (firebasecloud)
 - **Location Services:** Geolocation Integration
-- **Camera Integration:** Capture tree growth images
+- **Camera Integration:** Camera API
 
 ## Getting Started
 
