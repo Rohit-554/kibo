@@ -1,7 +1,7 @@
 ![hf10_horz_fcl_rgb](https://github.com/Rohit-554/kibo/assets/48874687/cb8d4bb2-6aaf-45cf-9929-1e2243033a57)
 # KIBO: Smart Way to Grow Plants
 
-Kibo is an innovative application developed during a hackathon organized by IIIT Kalyani. The project's goal is to encourage tree planting and reward users for their contributions to environmental sustainability.
+Kibo is an innovative application started during a hackathon, with the goal of encouraging tree planting and rewarding users for their contributions to environmental sustainability.
 
 ## Features
 
